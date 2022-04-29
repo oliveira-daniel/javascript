@@ -10,10 +10,10 @@
 
  */
 
-// Declaração do objeto contendo a coleção de filmes
+// Declaração do objeto contendo a coleção de filmes.
 
 
-// Criar a instância do vue passando o objeto de dados como argumento
+// Criar a instância do vue passando o objeto de dados como argumento.
 
 
-// Montar a aplicação - plugando o template
+// Montar a aplicação - plugando o template.
