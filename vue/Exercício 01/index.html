@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Exercício 01</title>
+   
+   <link rel="stylesheet" href="main.css">
+
+   <!-- Importar o Vue.js -->
+   <script src="https://unpkg.com/vue@3"></script>
+
+
+</head>
+
+<body>
+
+   <h1>Vue - Exercício 01</h1>
+   <h2>Listagem de filmes</h2>
+
+   <div id="app">
+
+      <!-- Crie aqui o template utilizando as diretivas Vue -->
+      <table class="table table-striped">
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>City</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr v-for="m of movies">
+               <td>{{m.name}}</td>
+               <td>{{m.city}}</td>
+   
+            </tr>
+         </tbody>
+         
+         
+      </table>
+
+      <!-- fim do template -->
+
+   </div>
+   <script src="vue_exe_01.js"></script>
+
+</body>
+
+</html>
