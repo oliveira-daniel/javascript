@@ -6,14 +6,36 @@
    Lista de filmes em Vue
 
    Prof:  Daniel de Oliveira
-   Aluno: [Seu nome aqui!]
+   Aluno: [Evan Rispoli]
 
  */
 
-// Declaração do objeto contendo a coleção de filmes.
+const app = Vue.createApp({
+  data: function() {
+    return {
+      movies: [
+        {
+           name: "Harry Potter",
+           city: "London"
+        },
+        {
+           name: "Don Quixote",
+           city: "Madrid"
+        },
+        {
+           name: "Joan of Arc",
+           city: "Paris"
+        },
+        {
+           name: "Rosa Park",
+           city: "Alabama"
+        }
+     ]
+    };
+  },
+});
+
+app.mount("#app");
 
 
-// Criar a instância do vue passando o objeto de dados como argumento.
 
-
-// Montar a aplicação - plugando o template.
